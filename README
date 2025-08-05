@@ -1,0 +1,14 @@
+Project Title: Semantic Book Recommender
+
+Project Description:
+Built a semantic book recommender using OpenAI embeddings, LangChain, and cosine similarity to match user queries with 3,000+ book descriptions.
+Enhanced data quality by applying zero-shot classification to categorize books as Fiction or Nonfiction, recovering labels for 1,000+ unlabeled records.
+Performed multi-class sentiment analysis on book descriptions using Hugging Face’s distilroberta-base, classifying them into 7 emotion categories.
+
+Technologies Used:
+	•	Programming Language: Python
+	•	LLM/Embedding API: OpenAI
+	•	LangChain – for chaining embedding, vector store, and query operations
+	•	Hugging Face Transformers – for zero-shot classification (facebook/bart-large-mnli) and sentiment analysis (emotion-english-distilroberta-base)
+	•	scikit-learn / NumPy – for cosine similarity
+	•	Data Handling: pandas
